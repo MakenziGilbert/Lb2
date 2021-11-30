@@ -19,13 +19,21 @@ input:checked {
   border: 32px solid green;
 }
 
+article{
+ display: flex;
+ align-items: center;
+ flex: 1 200px;
+ justify-content: space-evenly;
+}
 .Button{
  display: flex;
  align-items: center;
+ flex: 1 200px;
  justify-content: space-evenly;
 }
 
 .Button1 {
+ align-items: center;
  order: 3;
 }
 
