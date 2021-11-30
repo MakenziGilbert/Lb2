@@ -1,0 +1,24 @@
+input {
+-webkit-appearance: none;
+ -moz-appearance: none;
+  appearance: none;
+
+display: flex;
+flex-wrap: wrap;
+
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+
+  border: 32px solid red;
+  transition: 0.5s all linear;
+  outline: none;
+  margin-right: 32px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 32px solid green;
+}
