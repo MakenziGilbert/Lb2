@@ -25,30 +25,53 @@ article{
  flex: 1 200px;
  justify-content: space-evenly;
 }
-.Button{
+
+.Block{
  display: flex;
  align-items: center;
  flex: 1 200px;
  justify-content: space-evenly;
+
+ height: 100px;
+ width: 35px;
 }
 
-.Button1 {
- align-items: center;
+.Block1 {
+ background-color: green;
+ height: 100px;
+ width: 200px;
+ text-align: center;
+ line-height: 100px;
+
  order: 3;
 }
 
-.Button2 {
+.Block2 {
+ background-color: blue;
+ height: 100px;
+ width: 200px;
+ text-align: center;
+ line-height: 100px;
+
  order: 4;
 }
 
-.Button3 {
+.Block3 {
+ background-color: blue;
+ height: 100px;
+ width: 200px;
+ text-align: center;
+ line-height: 100px;
+
  order: 1;
 }
 
-.Button3 {
- order: 1;
-}
-
-.Button4 {
+.Block4 {
+ background-color: red;
+ height: 100px;
+ width: 200px;
+ text-align: center;
+ line-height: 100px;
+ 
  order: 2;
 }
