@@ -1,24 +1,46 @@
 input {
--webkit-appearance: none;
+ -webkit-appearance: none;
  -moz-appearance: none;
-  appearance: none;
+ appearance: none;
 
-display: flex;
-flex-wrap: wrap;
+ border-radius: 50%;
+ width: 32px;
+ height: 32px;
 
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
+ border: 32px solid red;
+ transition: 0.5s all linear;
+ outline: none;
+ margin-right: 32px;
 
-  border: 32px solid red;
-  transition: 0.5s all linear;
-  outline: none;
-  margin-right: 32px;
-
-  position: relative;
-  top: 4px;
+ position: relative;
 }
 
 input:checked {
   border: 32px solid green;
+}
+
+.Button{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+
+.Button1 {
+ order: 3;
+}
+
+.Button2 {
+ order: 4;
+}
+
+.Button3 {
+ order: 1;
+}
+
+.Button3 {
+ order: 1;
+}
+
+.Button4 {
+ order: 2;
 }
